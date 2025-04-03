@@ -82,8 +82,8 @@ def monitorar_indices():
             ultimo_indice_igpm = data_igpm
             send_message(f"📢 *Novo IGP-M!* 📅 {data_igpm} 📊 {val_igpm}")
 
-        print("⏳ Aguardando 1 minuto para próxima verificação...")
-        time.sleep(10 * 60 * 60)  # Verifica a cada 10 horas  # Verifica a cada 1 minuto
+        print("⏳ Aguardando 10 horas para próxima verificação...")
+        time.sleep(10 * 60 * 60)  # Verifica a cada 10 horas  
 
 if __name__ == "__main__":
     print("🔎 Monitorando IPCA e IGP-M...")
